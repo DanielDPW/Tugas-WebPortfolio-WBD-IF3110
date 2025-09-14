@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DPW's WBD Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="image-container">
+            <div class="ascii-img">
+                <img src="assets/ascii-image.png" alt="ASCII image of my face">
+            </div>
+            <div class="real-img">
+                <img src="assets/real-image.png" alt="Real image of my face">
+            </div>
+        </div>
+        <div class="terminal-container">
+            <input type="radio" id="about-tab" name="terminal-tab" hidden checked>
+            <input type="radio" id="skills-tab" name="terminal-tab" hidden>
+            <input type="radio" id="projects-tab" name="terminal-tab" hidden>
+            <input type="radio" id="education-tab" name="terminal-tab" hidden>
+            <input type="radio" id="contacts-tab" name="terminal-tab" hidden>
+            <nav class="tab-bar">
+                <label for="about-tab" class="tab-label">About Me <span class="tab-close">×</span></label>
+                <label for="skills-tab" class="tab-label">Skills <span class="tab-close">×</span></label>
+                <label for="projects-tab" class="tab-label">Projects <span class="tab-close">×</span></label>
+                <label for="education-tab" class="tab-label">Education <span class="tab-close">×</span></label>
+                <label for="contacts-tab" class="tab-label">Contacts <span class="tab-close">×</span></label>
+                <div class="window-controls">
+                    <span class="window-button">–</span>
+                    <span class="window-button">□</span>
+                    <span class="window-button">×</span>
+                </div>
+            </nav>
+            <main class="tab-content">
+                <section class="about-content">
+                    <h1>Hello, World! My name is Daniel</h1>
+                    <div>==============================================================</div>
+                    <h2>Undergraduate Informatics Student at ITB</h2>
+                    <div class="card">I'm not just interested in what computers can do, but also in how they do it. My passion lies in understanding the core mathematical principles and the low-level systems that bring the softwares that we take for granted to life.</div>
+                    <div class="cursor-container">
+                        <div>Type 'help' for a list of commands</div>
+                        <div>
+                            <span>> </span><span class="cursor"></span>
+                        </div>
+                    </div>
+                </section>
+                <section class="skills-content">
+                    <h1>Skills</h1>
+                    <div>==============================================================</div>
+                    <h2>Programming Languages</h2>
+                    <div>
+                        <span class="logo"><img src="assets/c++.png" alt="C/C++" title="C/C++"><span class="logo-tooltip">C/C++</span></span>
+                        <span class="logo"><img src="assets/csharp.png" alt="C#" title="C#"><span class="logo-tooltip">C#</span></span>
+                        <span class="logo"><img src="assets/java.png" alt="Java" title="Java"><span class="logo-tooltip">Java</span></span>
+                        <span class="logo"><img src="assets/python.png" alt="Python" title="Python"><span class="logo-tooltip">Python</span></span>
+                        <span class="logo"><img src="assets/golang.png" alt="Go" title="Go"><span class="logo-tooltip">Go</span></span>
+                        <span class="logo"><img src="assets/haskell.png" alt="Haskell" title="Haskell"><span class="logo-tooltip">Haskell</span></span>
+                        <span class="logo"><img src="assets/htmlcss.png" alt="HTML/CSS" title="HTML/CSS"><span class="logo-tooltip">HTML/CSS</span></span>
+                        <span class="logo"><img src="assets/js.png" alt="JavaScript" title="JavaScript"><span class="logo-tooltip">JavaScript</span></span>
+                        <span class="logo"><img src="assets/rust.png" alt="Rust" title="Rust"><span class="logo-tooltip">Rust</span></span>
+                        <span class="logo"><img src="assets/prolog.png" alt="Prolog" title="Prolog"><span class="logo-tooltip">Prolog</span></span>
+                        <span class="logo"><img src="assets/sql.png" alt="SQL" title="SQL"><span class="logo-tooltip">SQL</span></span>
+                        <span class="logo"><img src="assets/godot.png" alt="Godot" title="Godot"><span class="logo-tooltip">Godot</span></span>
+                    </div>
+                    <h2>Tools & Technologies</h2>
+                    <div>
+                        <span class="logo"><img src="assets/git.png" alt="Git" title="Git"><span class="logo-tooltip">Git</span></span>
+                        <span class="logo"><img src="assets/github.png" alt="GitHub" title="GitHub"><span class="logo-tooltip">GitHub</span></span>
+                        <span class="logo"><img src="assets/nginx.png" alt="nginx" title="nginx"><span class="logo-tooltip">nginx</span></span>
+                        <span class="logo"><img src="assets/bind.png" alt="BIND" title="BIND"><span class="logo-tooltip">BIND</span></span>
+                        <span class="logo"><img src="assets/mysql.png" alt="MySQL" title="MySQL"><span class="logo-tooltip">MySQL</span></span>
+                        <span class="logo"><img src="assets/docker.png" alt="Docker" title="Docker"><span class="logo-tooltip">Docker</span></span>
+                        <span class="logo"><img src="assets/kubernetes.png" alt="Kubernetes" title="Kubernetes"><span class="logo-tooltip">Kubernetes</span></span>
+                        <span class="logo"><img src="assets/flask.png" alt="Flask" title="Flask"><span class="logo-tooltip">Flask</span></span>
+                    </div>
+                    <div class="cursor-container">
+                        <div>Type 'help' for a list of commands</div>
+                        <div>
+                            <span>> </span><span class="cursor"></span>
+                        </div>
+                    </div>
+                </section>
+                <section class="projects-content">
+                    <h1>Projects</h1>
+                    <div>==============================================================</div>
+                    <div class="card"><a href="https://github.com/DanielDPW/Tugas-Besar-1-Algeo-IF2123-K01-03" target="_blank">Systems of Linear Equations Solver using Java</a></div>
+                    <div class="card"><a href="https://github.com/DanielDPW/Tucil-Clan-Programmer-GIM-ITB" target="_blank">Simple Shoot 'Em Up Game in Godot</a></div>
+                    <div class="card"><a href="https://github.com/DanielDPW/Makalah_IF1220_Matdis" target="_blank">Custom Iterated Prisoner's Dilemma Simulation</a></div>
+                    <div class="card"><a href="https://github.com/DanielDPW/Makalah_IF2123_Algeo" target="_blank">Ordinary Differential Equation Solver</a></div>
+                    <div class="card"><a href="https://github.com/DanielDPW/Tugas-Besar-Logkom-IF1221-K01-S-I-G-M-A" target="_blank">Camel Up Game in Prolog</a></div>
+                    <div class="card"><a href="https://github.com/DanielDPW/Tugas-Besar-2-Algeo-IF2123-K01-09" target="_blank">A Query by Humming and Image Recognition Webapp</a></div>
+                    <div class="card"><a href="https://github.com/DanielDPW/Tucil2_13523099_13523109" target="_blank">A Quadtree Image Compressor in C++</a></div>
+                    <div class="card"><a href="https://github.com/DanielDPW/Tucil3_13523003_13523099" target="_blank">Rush Hour Puzzle Solver in TypeScript</a></div>
+                    <div class="card"><a href="https://github.com/DanielDPW/SeleksiSisterB1/tree/main/Mandelbrot_of_Madness" target="_blank">A Mandelbrot Set Generator in C++</a></div>
+                    <div class="card"><a href="https://github.com/DanielDPW/SeleksiSisterB2/tree/main/Sunda_Priangan" target="_blank">HTTP Server Made in x86 Assembly</a></div>
+                    <div class="cursor-container">
+                        <div>Type 'help' for a list of commands</div>
+                        <div>
+                            <span>> </span><span class="cursor"></span>
+                        </div>
+                    </div>
+                </section>
+                <section class="education-content">
+                    <h1>Education</h1>
+                    <div>==============================================================</div>
+                    <div class="card">
+                        <h2>SMAS Santo Tarcisius Dumai</h2>
+                        <p>2020-2023</p>
+                    </div>
+                    <div class="card">
+                        <h2>Institut Teknologi Bandung</h2>
+                        <p>2023-Present</p>
+                    </div>
+                    <div class="cursor-container">
+                        <div>Type 'help' for a list of commands</div>
+                        <div>
+                            <span>> </span><span class="cursor"></span>
+                        </div>
+                    </div>
+                </section>
+                <section class="contacts-content">
+                    <h1>Contacts</h1>
+                    <div>==============================================================</div>
+                    <div>
+                        <a class="logo" href="https://github.com/DanielDPW" target="_blank" title="https://github.com/DanielDPW">
+                            <img src="assets/github.png" alt="GitHub">
+                        </a>
+                        <a class="logo" href="https://www.linkedin.com/in/daniel-pedrosa-wu-248107314/" target="_blank" title="https://www.linkedin.com/in/daniel-pedrosa-wu-248107314/">
+                            <img src="assets/linkedin.png" alt="LinkedIn">
+                        </a>
+                    </div>
+                    <div class="cursor-container">
+                        <div>Type 'help' for a list of commands</div>
+                        <div>
+                            <span>> </span><span class="cursor"></span>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
